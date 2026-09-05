@@ -2,11 +2,15 @@
 
 1.1 Install kubectl
 
+
 1.2 Install eksctl 
 ```
 > brew tap aws/tap
+```
+```
 > brew install aws/tap/eksctl
 ```
+
 
 1.3 Install aws cli
 ```
@@ -15,12 +19,16 @@
 > aws --version
 ```
 
+
 # 2. Configure
 // Create access key and access secret in aws settings > credential manager > create access key
 ```
 > aws configure
+```
+```
 > Provide your access key and secret
 ```
+
 
 # 3. Create eks cluster
 ```
