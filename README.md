@@ -37,3 +37,13 @@
 ```
 > eksctl delete cluster --name demo-cluster --region us-east-1
 ```
+
+
+# 4. Create fargate profile
+```
+eksctl create fargateprofile \
+--cluster demo-cluster-1 \
+--region us-east-1 \
+--name alb-sample-app \
+--namespace game-2048
+```
